@@ -1,6 +1,6 @@
 package employees;
-import telran.io.Persistable;
-import telran.view.*;
+import io.Persistable;
+import view.*;
 public class Main {
     public static void main(String[] args) {
        Company company = new CompanyImpl();
