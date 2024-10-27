@@ -1,5 +1,4 @@
 package employees;
-import employees.*;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.function.Consumer;
@@ -11,14 +10,14 @@ public class EmployeeItems {
     final static int MIN_SALARY = 5000;
     final static int MAX_SALARY = 30000;
     final static String[] DEPARTMENTS = { "QA", "Audit", "Development", "Management" };
-    final static long MIN_ID = 100000;
-    final static long MAX_ID = 999999;
+    final static long MIN_ID = 1;
+    final static long MAX_ID = 9999;
     final static int MIN_FACTOR = 1;
     final static int MAX_FACTOR = 4;
     final static int MIN_WAGE = 50;
     final static int MAX_WAGE = 1000;
     final static int MIN_HOURS = 1;
-    final static int MAX_HOURS = 160;
+    final static int MAX_HOURS = 180;
     final static float MIN_PERCENT = 5;
     final static float MAX_PERCENT = 80;
     final static long MIN_SALES = 0;
