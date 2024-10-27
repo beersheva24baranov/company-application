@@ -68,11 +68,12 @@ public class EmployeeItems {
             employee.getId(),
             employee.getSalary(),
             employee.getDepartment(),
-            0, 0, readPercent(io),
+            employee.getWage(),
+            employee.getHours(),
+            readPercent(io),
             readSales(io)
         );
     }
-
     public static Manager enterManager(InputOutput io) {
         Employee employee = enterEmployee(io);
         return new Manager(
